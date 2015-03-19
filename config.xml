@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <widget>
-	<name>Config</name>
+	<name>Clock</name>
 	<description>
-		This is the config.xml file for the clock app
+		This is the Clock app
 	</description>
 	<icon src = "icon.png" />
 </widget>
