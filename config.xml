@@ -1,5 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<widget>
+<widget
+		version	= "1.0.0">
 	<name>Clock</name>
 	<description>
 		This is the Clock app
