@@ -1,3 +1,6 @@
-<platform name="android">
-	<icon src = "icon.png"
-</platform>
+<?xml version="1.0" encoding="UTF-8"?>
+<config>
+	<platform name="android">
+		<icon src = "icon.png"
+	</platform>
+</config>
