@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<config>
-	<platform name="android">
-		<icon src = "icon.png"
-	</platform>
-</config>
+<widget>
+	<name>Config</name>
+	<description>
+		This is the config.xml file for the clock app
+	</description>
+	<icon src = "icon.png" />
+</widget>
