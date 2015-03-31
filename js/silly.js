@@ -19,8 +19,8 @@ var SILLY = (function(module) {
 	var london = charlotte.clone().tz("Europe/London");
 	var berlin = charlotte.clone().tz("Europe/Berlin");
 	
-	london = moment(london).format("HH:MM A Z");
-	berlin = moment(berlin).format("HH:MM A Z");
+	london = moment(london).format("hh:mm A Z");
+	berlin = moment(berlin).format("hh:mm A Z");
 	charlotte = moment(charlotte).format("HH:MM A Z");
 	resultObject.prepend( "Charlotte: " + charlotte + '<br/>' + "London: " + london + '<br/>' + "Berlin: " + berlin + '<br/>');
 	};
