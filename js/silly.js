@@ -14,14 +14,15 @@ var SILLY = (function(module) {
 	You can also go to website which has an example of how to do this:
 	http://momentjs.com/timezone/
 	*/
-	var charlotteDate = moment(Date()).format('YYYY-MM-DD HH:MM');
+	var today = new Date().toISOString();
+	var charlotteDate = moment(today);
 	var charlotte = moment.tz(charlotteDate, "America/New_York")
 	var london = charlotte.clone().tz("Europe/London");
 	var berlin = charlotte.clone().tz("Europe/Berlin");
 	
 	london = moment(london).format("hh:mm A Z");
 	berlin = moment(berlin).format("hh:mm A Z");
-	charlotte = moment(charlotte).format("HH:MM A Z");
+	charlotte = moment(charlotte).format("hh:mm A Z");
 	resultObject.prepend( "Charlotte: " + charlotte + '<br/>' + "London: " + london + '<br/>' + "Berlin: " + berlin + '<br/>');
 	};
 	
