@@ -19,11 +19,15 @@ var SILLY = (function(module) {
 	var charlotte = moment.tz(charlotteDate, "America/New_York")
 	var london = charlotte.clone().tz("Europe/London");
 	var berlin = charlotte.clone().tz("Europe/Berlin");
-	
+	var saudiArabia = charlotte.clone().tz("Asia/saudiArabia");
+	var hyderabad = charlotte.clone().tz("Asia/hyderabad");
 	london = moment(london).format("hh:mm A Z");
 	berlin = moment(berlin).format("hh:mm A Z");
 	charlotte = moment(charlotte).format("hh:mm A Z");
-	resultObject.prepend( "Charlotte: " + charlotte + '<br/>' + "London: " + london + '<br/>' + "Berlin: " + berlin + '<br/>');
+	saudiArabia = moment(saudiArabia).format("hh:mm A Z");
+	hyderabad = moment(hyderabad).format("hh:mm A Z");
+	
+	resultObject.prepend( "Charlotte: " + charlotte + '<br/>' + "Hyderabad: " + hyderabad + '<br/>' + "Berlin: " + berlin + '<br/>' + "Saudi Arabia: " + saudiArabia + '<br/>');
 	};
 	
 	return module;
