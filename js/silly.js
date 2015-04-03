@@ -27,7 +27,7 @@ var SILLY = (function(module) {
 	saudiArabia = moment(saudiArabia).format("hh:mm A Z");
 	hyderabad = moment(hyderabad).format("hh:mm A Z");
 	
-	resultObject.prepend( "Charlotte: " + charlotte + '<br/>' + "Hyderabad: " + hyderabad + '<br/>' + "Frankfurt: " + berlin + '<br/>' + "Saudi Arabia: " + saudiArabia + '<br/>');
+	resultObject.prepend( "Charlotte: " + charlotte + '<br/>' + "Frankfurt: " + berlin + '<br/>' + "Saudi Arabia: " + saudiArabia + '<br/>' + "Hyderabad: " + hyderabad + '<br/>');
 	};
 	
 	return module;
